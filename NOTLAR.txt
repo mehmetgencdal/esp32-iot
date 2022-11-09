@@ -1,0 +1,3 @@
+DHT 11: + = 3.3V, out = 15, - = GND
+Buzzer: + = GND
+Ses kartı: vcc= 5v out= 5 
