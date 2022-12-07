@@ -46,6 +46,8 @@ BluetoothSerial SerialBT;
 void setup()
 {
   SerialBT.begin();
+  SerialBT.println("Bluetooth activated.");
+  Serial.println("Bluetooth activated.");
   Serial.begin(115200);
   Serial.println("Initializing...");
 
@@ -63,7 +65,7 @@ void setup()
   byte ledMode = 2; //Options: 1 = Red only, 2 = Red + IR, 3 = Red + IR + Green
   int sampleRate = 3200; //Options: 50, 100, 200, 400, 800, 1000, 1600, 3200
   int pulseWidth = 411; //Options: 69, 118, 215, 411
-  int adcRange = 16384; //Options: 2048, 4096, 8192, 16384
+  int adcRange = 2048; //Options: 2048, 4096, 8192, 16384
 
   particleSensor.setup(ledBrightness, sampleAverage, ledMode, sampleRate, pulseWidth, adcRange); //Configure sensor with these settings
 
