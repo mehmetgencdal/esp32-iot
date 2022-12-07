@@ -45,10 +45,10 @@ BluetoothSerial SerialBT;
 
 void setup()
 {
+  Serial.begin(115200);
   SerialBT.begin();
   SerialBT.println("Bluetooth activated.");
   Serial.println("Bluetooth activated.");
-  Serial.begin(115200);
   Serial.println("Initializing...");
 
   // Initialize sensor
