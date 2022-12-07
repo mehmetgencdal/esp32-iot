@@ -3,3 +3,6 @@ Buzzer: + = GND, out = 18
 Ses kartı: vcc= 5v out= 5 
 
 pip install pyserial
+
+
+https://techtutorialsx.com/2017/12/02/esp32-esp8266-arduino-serial-communication-with-python/
