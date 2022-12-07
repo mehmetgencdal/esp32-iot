@@ -6,3 +6,4 @@ pip install pyserial
 
 
 https://techtutorialsx.com/2017/12/02/esp32-esp8266-arduino-serial-communication-with-python/
+https://how2electronics.com/esp32-max30100-pulse-oximeter-blynk/
