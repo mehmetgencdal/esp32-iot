@@ -1,6 +1,6 @@
 DHT 11: + = 3.3V, out = 15, - = GND
 Buzzer: + = GND, out = 18
-Ses kartı: vcc= 5v out= 5 
+Ses kartı: vcc= 5v out= 12 
 
 pip install pyserial
 
